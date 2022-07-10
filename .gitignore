@@ -1633,3 +1633,401 @@ Assets/SampleScenes/Textures/SwatchWhiteAlbedo.png
 Assets/SampleScenes/Textures/SwatchWhiteAlbedo.png.meta
 Assets/SampleScenes/Textures/SwatchYellowAlbedo.png
 Assets/SampleScenes/Textures/SwatchYellowAlbedo.png.meta
+Assets/StarSparrow/Materials.meta
+Assets/StarSparrow/Meshes.meta
+Assets/StarSparrow/Prefabs.meta
+Assets/StarSparrow/Readme.meta
+Assets/StarSparrow/Scenes.meta
+Assets/StarSparrow/SubstancePainter.meta
+Assets/StarSparrow/Textures.meta
+Assets/StarSparrow/UpgradeHDRP.meta
+Assets/StarSparrow/UpgradeURP.meta
+Assets/StarSparrow/Materials/BonusContent.meta
+Assets/StarSparrow/Materials/Extra.meta
+Assets/StarSparrow/Materials/StarSparrow_Blue.mat
+Assets/StarSparrow/Materials/StarSparrow_Blue.mat.meta
+Assets/StarSparrow/Materials/StarSparrow_Green.mat
+Assets/StarSparrow/Materials/StarSparrow_Green.mat.meta
+Assets/StarSparrow/Materials/StarSparrow_Grey.mat
+Assets/StarSparrow/Materials/StarSparrow_Grey.mat.meta
+Assets/StarSparrow/Materials/StarSparrow_Purple.mat
+Assets/StarSparrow/Materials/StarSparrow_Purple.mat.meta
+Assets/StarSparrow/Materials/StarSparrow_Red.mat
+Assets/StarSparrow/Materials/StarSparrow_Red.mat.meta
+Assets/StarSparrow/Materials/StarSparrow_White.mat
+Assets/StarSparrow/Materials/StarSparrow_White.mat.meta
+Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Blue.mat
+Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Blue.mat.meta
+Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat
+Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat.meta
+Assets/StarSparrow/Materials/BonusContent/Bomb.mat
+Assets/StarSparrow/Materials/BonusContent/Bomb.mat.meta
+Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat
+Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat.meta
+Assets/StarSparrow/Materials/BonusContent/ColorsAtlas.mat
+Assets/StarSparrow/Materials/BonusContent/ColorsAtlas.mat.meta
+Assets/StarSparrow/Materials/BonusContent/FlyingInsect_Purple.mat
+Assets/StarSparrow/Materials/BonusContent/FlyingInsect_Purple.mat.meta
+Assets/StarSparrow/Materials/BonusContent/Grey.mat
+Assets/StarSparrow/Materials/BonusContent/Grey.mat.meta
+Assets/StarSparrow/Materials/BonusContent/Mine Sample 1.mat
+Assets/StarSparrow/Materials/BonusContent/Mine Sample 1.mat.meta
+Assets/StarSparrow/Materials/BonusContent/Mine Sample 2.mat
+Assets/StarSparrow/Materials/BonusContent/Mine Sample 2.mat.meta
+Assets/StarSparrow/Materials/BonusContent/Missile.mat
+Assets/StarSparrow/Materials/BonusContent/Missile.mat.meta
+Assets/StarSparrow/Materials/BonusContent/TinniuqPlanet.mat
+Assets/StarSparrow/Materials/BonusContent/TinniuqPlanet.mat.meta
+Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat
+Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat.meta
+Assets/StarSparrow/Materials/Extra/StarSparrow_Cyan.mat
+Assets/StarSparrow/Materials/Extra/StarSparrow_Cyan.mat.meta
+Assets/StarSparrow/Materials/Extra/StarSparrow_Orange.mat
+Assets/StarSparrow/Materials/Extra/StarSparrow_Orange.mat.meta
+Assets/StarSparrow/Materials/Extra/StarSparrow_Yellow.mat
+Assets/StarSparrow/Materials/Extra/StarSparrow_Yellow.mat.meta
+Assets/StarSparrow/Meshes/BonusContent.meta
+Assets/StarSparrow/Meshes/StarSparrow1.fbx
+Assets/StarSparrow/Meshes/StarSparrow1.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow10.fbx
+Assets/StarSparrow/Meshes/StarSparrow10.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow11.fbx
+Assets/StarSparrow/Meshes/StarSparrow11.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow12.fbx
+Assets/StarSparrow/Meshes/StarSparrow12.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow13.fbx
+Assets/StarSparrow/Meshes/StarSparrow13.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow14.fbx
+Assets/StarSparrow/Meshes/StarSparrow14.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow15.fbx
+Assets/StarSparrow/Meshes/StarSparrow15.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow16.fbx
+Assets/StarSparrow/Meshes/StarSparrow16.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow17.fbx
+Assets/StarSparrow/Meshes/StarSparrow17.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow18.fbx
+Assets/StarSparrow/Meshes/StarSparrow18.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow19.fbx
+Assets/StarSparrow/Meshes/StarSparrow19.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow2.fbx
+Assets/StarSparrow/Meshes/StarSparrow2.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow20.fbx
+Assets/StarSparrow/Meshes/StarSparrow20.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow3.fbx
+Assets/StarSparrow/Meshes/StarSparrow3.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow4.fbx
+Assets/StarSparrow/Meshes/StarSparrow4.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow5.fbx
+Assets/StarSparrow/Meshes/StarSparrow5.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow6.fbx
+Assets/StarSparrow/Meshes/StarSparrow6.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow7.fbx
+Assets/StarSparrow/Meshes/StarSparrow7.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow8.fbx
+Assets/StarSparrow/Meshes/StarSparrow8.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrow9.fbx
+Assets/StarSparrow/Meshes/StarSparrow9.fbx.meta
+Assets/StarSparrow/Meshes/StarSparrowModules.FBX
+Assets/StarSparrow/Meshes/StarSparrowModules.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/AsteroidsSample.FBX
+Assets/StarSparrow/Meshes/BonusContent/AsteroidsSample.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/Clouds.FBX
+Assets/StarSparrow/Meshes/BonusContent/Clouds.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3.FBX
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing2.FBX
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing2.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing3.FBX
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing3.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing4.FBX
+Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing4.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX
+Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/MissilesSample.FBX
+Assets/StarSparrow/Meshes/BonusContent/MissilesSample.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/Planet.FBX
+Assets/StarSparrow/Meshes/BonusContent/Planet.FBX.meta
+Assets/StarSparrow/Meshes/BonusContent/StarSparrow_1_LP_Red.fbx
+Assets/StarSparrow/Meshes/BonusContent/StarSparrow_1_LP_Red.fbx.meta
+Assets/StarSparrow/Meshes/BonusContent/StarSparrow_Modules_LP_Red.fbx
+Assets/StarSparrow/Meshes/BonusContent/StarSparrow_Modules_LP_Red.fbx.meta
+Assets/StarSparrow/Prefabs/BonusContent.meta
+Assets/StarSparrow/Prefabs/Examples.meta
+Assets/StarSparrow/Prefabs/Modular Examples.meta
+Assets/StarSparrow/Prefabs/Modules.meta
+Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Blue.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Blue.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/Bomb.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Bomb.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/Flying Insect.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Flying Insect.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 1.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 1.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 2.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 2.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship.meta
+Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab
+Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red_Modular.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red_Modular.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Core_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Core_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Engine_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Engine_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Plasma_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Plasma_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Thruster_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Thruster_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_Mirrored_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_Mirrored_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_Mirrored_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_Mirrored_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_2_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_2_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_3_LP_Red.prefab
+Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_3_LP_Red.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow1.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow1.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow10.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow10.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow11.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow11.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow16.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow16.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow19.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow19.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow4.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow4.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow8.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow8.prefab.meta
+Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab
+Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow10.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow10.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow11.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow11.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow14.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow14.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow15.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow15.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow17.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow17.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow20.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow20.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow4.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow4.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow6.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow6.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow7.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow7.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow8.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow8.prefab.meta
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab
+Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon_Mirrored.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon_Mirrored.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1_Mirrored.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1_Mirrored.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2_Mirrored.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2_Mirrored.prefab.meta
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab
+Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab.meta
+Assets/StarSparrow/Readme/Readme Files.meta
+Assets/StarSparrow/Readme/ReadmeStarSparrow.asset
+Assets/StarSparrow/Readme/ReadmeStarSparrow.asset.meta
+Assets/StarSparrow/Readme/USC Documentation.pdf
+Assets/StarSparrow/Readme/USC Documentation.pdf.meta
+Assets/StarSparrow/Readme/Readme Files/Icons.meta
+Assets/StarSparrow/Readme/Readme Files/LayoutStarSparrow.wlt
+Assets/StarSparrow/Readme/Readme Files/LayoutStarSparrow.wlt.meta
+Assets/StarSparrow/Readme/Readme Files/Scripts.meta
+Assets/StarSparrow/Readme/Readme Files/Icons/HelpStarSparrow_Icon.png
+Assets/StarSparrow/Readme/Readme Files/Icons/HelpStarSparrow_Icon.png.meta
+Assets/StarSparrow/Readme/Readme Files/Icons/ReadMeStarSparrow_Icon.png
+Assets/StarSparrow/Readme/Readme Files/Icons/ReadMeStarSparrow_Icon.png.meta
+Assets/StarSparrow/Readme/Readme Files/Scripts/Editor.meta
+Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs
+Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs.meta
+Assets/StarSparrow/Readme/Readme Files/Scripts/Editor/ReadmeStarSparrowEditor.cs
+Assets/StarSparrow/Readme/Readme Files/Scripts/Editor/ReadmeStarSparrowEditor.cs.meta
+Assets/StarSparrow/Scenes/BonusContent.unity
+Assets/StarSparrow/Scenes/BonusContent.unity.meta
+Assets/StarSparrow/Scenes/StarSparrow.unity
+Assets/StarSparrow/Scenes/StarSparrow.unity.meta
+Assets/StarSparrow/SubstancePainter/StarSparrow.spp
+Assets/StarSparrow/SubstancePainter/StarSparrow.spp.meta
+Assets/StarSparrow/Textures/BonusContent.meta
+Assets/StarSparrow/Textures/Masks.meta
+Assets/StarSparrow/Textures/StarSparrow_Black.png
+Assets/StarSparrow/Textures/StarSparrow_Black.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Blue.png
+Assets/StarSparrow/Textures/StarSparrow_Blue.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Cyan.png
+Assets/StarSparrow/Textures/StarSparrow_Cyan.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Emission.png
+Assets/StarSparrow/Textures/StarSparrow_Emission.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Green.png
+Assets/StarSparrow/Textures/StarSparrow_Green.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Grey.png
+Assets/StarSparrow/Textures/StarSparrow_Grey.png.meta
+Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
+Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Normal.png
+Assets/StarSparrow/Textures/StarSparrow_Normal.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Orange.png
+Assets/StarSparrow/Textures/StarSparrow_Orange.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Purple.png
+Assets/StarSparrow/Textures/StarSparrow_Purple.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Red.png
+Assets/StarSparrow/Textures/StarSparrow_Red.png.meta
+Assets/StarSparrow/Textures/StarSparrow_White.png
+Assets/StarSparrow/Textures/StarSparrow_White.png.meta
+Assets/StarSparrow/Textures/StarSparrow_Yellow.png
+Assets/StarSparrow/Textures/StarSparrow_Yellow.png.meta
+Assets/StarSparrow/Textures/BonusContent/Asteroids.meta
+Assets/StarSparrow/Textures/BonusContent/FlyingInsect.meta
+Assets/StarSparrow/Textures/BonusContent/Mines.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb.meta
+Assets/StarSparrow/Textures/BonusContent/Planet.meta
+Assets/StarSparrow/Textures/BonusContent/PolygonSpaceship.meta
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Blue.png
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Blue.png.meta
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png.meta
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png.meta
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Grey.png
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Grey.png.meta
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png.meta
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Red.png
+Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Red.png.meta
+Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png
+Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png.meta
+Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png
+Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png.meta
+Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png
+Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png.meta
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png
+Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Emission.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Emission.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png.meta
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png
+Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png.meta
+Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png
+Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png.meta
+Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png
+Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png.meta
+Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png
+Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png.meta
+Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png
+Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Normal.png.meta
+Assets/StarSparrow/Textures/BonusContent/PolygonSpaceship/ColorsAtlas.png
+Assets/StarSparrow/Textures/BonusContent/PolygonSpaceship/ColorsAtlas.png.meta
+Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png
+Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png.meta
+Assets/StarSparrow/Textures/Masks/StarSparrow_Mask2.png
+Assets/StarSparrow/Textures/Masks/StarSparrow_Mask2.png.meta
+Assets/StarSparrow/Textures/Masks/StarSparrow_Mask3.png
+Assets/StarSparrow/Textures/Masks/StarSparrow_Mask3.png.meta
+Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png
+Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png.meta
+Assets/StarSparrow/UpgradeHDRP/HDRP_2019.4+.unitypackage.meta
+Assets/StarSparrow/UpgradeHDRP/HDRP_2020.2+.unitypackage.meta
+Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt
+Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt.meta
+Assets/StarSparrow/UpgradeURP/URP_Materials.unitypackage.meta
