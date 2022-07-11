@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+///using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] InputAction movement;
+    //[SerializeField] InputAction movement;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         movement.Enable();
     }
@@ -20,20 +20,24 @@ public class PlayerController : MonoBehaviour
     private void OnDisable()
     {
         movement.Disable();
-    }
+    }*/
 
     // Update is called once per frame
     void Update()
     {
 
-        float horizontalThrow = movement.ReadValue<Vector2>().x;
+        /*float horizontalThrow = movement.ReadValue<Vector2>().x;
         Debug.Log(horizontalThrow);
         float verticalThrow = movement.ReadValue<Vector2>().y;
-        Debug.Log(verticalThrow);
-        /*float horizontalThrow = Input.GetAxis("Horizontal");
-        Debug.Log(horizontalThrow);
-
-        float verticalThrow = Input.GetAxis("Vertical");
         Debug.Log(verticalThrow);*/
+
+        float horizontalThrow = Input.GetAxis("Horizontal");
+        
+        float verticalThrow = Input.GetAxis("Vertical");
+
+        float xPos = 1f * Time.deltaTime;
+        float newXPos = transform.localPosition.x + xPos;
+
+        transform.localPosition = new Vector3(newXPos, transform.localPosition.y, transform.localPosition.z);
     }
 }
