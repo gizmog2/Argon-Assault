@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     //[SerializeField] InputAction movement;
     // Start is called before the first frame update
+    [SerializeField] float moveSpeed = 1f;
     void Start()
     {
         
@@ -31,13 +32,16 @@ public class PlayerController : MonoBehaviour
         float verticalThrow = movement.ReadValue<Vector2>().y;
         Debug.Log(verticalThrow);*/
 
-        float horizontalThrow = Input.GetAxis("Horizontal");
+        float xThrow = Input.GetAxis("Horizontal");
         
-        float verticalThrow = Input.GetAxis("Vertical");
+        float yThrow = Input.GetAxis("Vertical");
 
-        float xPos = 1f * Time.deltaTime;
+        float xPos = xThrow * moveSpeed * Time.deltaTime;
         float newXPos = transform.localPosition.x + xPos;
 
-        transform.localPosition = new Vector3(newXPos, transform.localPosition.y, transform.localPosition.z);
+        float yPos = yThrow * moveSpeed * Time.deltaTime;
+        float newYPos = transform.localPosition.y + yPos;
+
+        transform.localPosition = new Vector3(newXPos, newYPos, transform.localPosition.z);
     }
 }
