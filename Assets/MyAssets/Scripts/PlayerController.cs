@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,14 +25,26 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ProcessTranslation();
+        ProcessRotation();
 
+        
+    }
+
+    void ProcessRotation()
+    {
+        transform.localRotation = Quaternion.Euler(-30, 30, 0);
+    }
+
+    void ProcessTranslation()
+    {
         /*float horizontalThrow = movement.ReadValue<Vector2>().x;
-        Debug.Log(horizontalThrow);
-        float verticalThrow = movement.ReadValue<Vector2>().y;
-        Debug.Log(verticalThrow);*/
+         Debug.Log(horizontalThrow);
+         float verticalThrow = movement.ReadValue<Vector2>().y;
+         Debug.Log(verticalThrow);*/
 
         float xThrow = Input.GetAxis("Horizontal");
-        
+
         float yThrow = Input.GetAxis("Vertical");
 
         float xPos = xThrow * moveSpeed * Time.deltaTime;
