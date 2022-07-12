@@ -340,7 +340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878778477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 120.8, y: 36.2, z: 96.3}
+  m_LocalPosition: {x: 120.8, y: 37.8, z: 96.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -426,7 +426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.39, z: -12.52}
+  m_LocalPosition: {x: 0, y: 0.3, z: -17.6}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -696,6 +696,14 @@ PrefabInstance:
     - target: {fileID: 8145524682056793149, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
       propertyPath: m_Name
       value: Player Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
+      propertyPath: xRange
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
+      propertyPath: yRange
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
       propertyPath: moveSpeed

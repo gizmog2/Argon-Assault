@@ -8,11 +8,9 @@ public class PlayerController : MonoBehaviour
     //[SerializeField] InputAction movement;
     // Start is called before the first frame update
     [SerializeField] float moveSpeed = 1f;
-    void Start()
-    {
-        
-    }
-
+    [SerializeField] float xRange = 5f;
+    [SerializeField] float yRange = 5f;
+    
     /*private void OnEnable()
     {
         movement.Enable();
@@ -38,10 +36,12 @@ public class PlayerController : MonoBehaviour
 
         float xPos = xThrow * moveSpeed * Time.deltaTime;
         float newXPos = transform.localPosition.x + xPos;
+        float clampXPos = Mathf.Clamp(newXPos, -xRange, xRange);
 
         float yPos = yThrow * moveSpeed * Time.deltaTime;
         float newYPos = transform.localPosition.y + yPos;
+        float clampYPos = Mathf.Clamp(newYPos, -yRange, yRange);
 
-        transform.localPosition = new Vector3(newXPos, newYPos, transform.localPosition.z);
+        transform.localPosition = new Vector3(clampXPos, clampYPos, transform.localPosition.z);
     }
 }
