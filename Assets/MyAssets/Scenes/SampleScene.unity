@@ -425,14 +425,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: -17.6}
+  m_LocalRotation: {x: 0.110688426, y: 0, z: 0, w: 0.9938552}
+  m_LocalPosition: {x: 0, y: 4, z: -17.6}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 878778479}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.71, y: 0, z: 0}
 --- !u!1 &1055375825
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,12 +479,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055375825}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.229633, y: -299.54837, z: 424.3288}
+  m_LocalPosition: {x: 66.81963, y: -240.94836, z: 570.6188}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2033800625}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1272832017
 GameObject:
@@ -633,7 +633,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1272832018}
-  - {fileID: 1055375827}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -708,6 +707,22 @@ PrefabInstance:
     - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
       propertyPath: moveSpeed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
+      propertyPath: controlRollFactor
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
+      propertyPath: positionYawFactor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
+      propertyPath: positionRollFactor
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219313648788828739, guid: c6321b30772bedc438f2317b42de05dc, type: 3}
+      propertyPath: positionPitchFactor
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6321b30772bedc438f2317b42de05dc, type: 3}

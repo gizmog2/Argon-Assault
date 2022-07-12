@@ -11,7 +11,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 1f;
     [SerializeField] float xRange = 5f;
     [SerializeField] float yRange = 5f;
-    
+
+    [SerializeField] float positionPitchFactor = 2f;
+    [SerializeField] float controlPitchFactor = -10f;
+
+    [SerializeField] float positionYawFactor = 2f;
+    [SerializeField] float controlRollFactor = -10f;
+
+    float xThrow, yThrow;
+
     /*private void OnEnable()
     {
         movement.Enable();
@@ -33,7 +41,13 @@ public class PlayerController : MonoBehaviour
 
     void ProcessRotation()
     {
-        transform.localRotation = Quaternion.Euler(-30, 30, 0);
+        float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
+        float pitchDueToControl = yThrow * controlPitchFactor;
+
+        float pitch = pitchDueToPosition + pitchDueToControl;
+        float yaw = transform.localPosition.x * positionYawFactor;
+        float roll = transform.localPosition.x + xThrow * controlRollFactor;
+        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
     void ProcessTranslation()
@@ -43,9 +57,9 @@ public class PlayerController : MonoBehaviour
          float verticalThrow = movement.ReadValue<Vector2>().y;
          Debug.Log(verticalThrow);*/
 
-        float xThrow = Input.GetAxis("Horizontal");
+        xThrow = Input.GetAxis("Horizontal");
 
-        float yThrow = Input.GetAxis("Vertical");
+        yThrow = Input.GetAxis("Vertical");
 
         float xPos = xThrow * moveSpeed * Time.deltaTime;
         float newXPos = transform.localPosition.x + xPos;
