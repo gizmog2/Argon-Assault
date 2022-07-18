@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 1f;
     [SerializeField] float xRange = 5f;
     [SerializeField] float yRange = 5f;
+    
 
     [SerializeField] float positionPitchFactor = 2f;
     [SerializeField] float controlPitchFactor = -10f;
@@ -35,8 +36,17 @@ public class PlayerController : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
-
+        ProcessFiring();
         
+    }
+
+    private void ProcessFiring()
+    {
+        
+        if (Input.GetButton("Fire1"))
+        {
+            Debug.Log("Fire");
+        }
     }
 
     void ProcessRotation()
