@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &34238845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4142924367313576387, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+  m_PrefabInstance: {fileID: 3250838699092099444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &86099673
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +300,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &744055028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 934419214132480185, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+  m_PrefabInstance: {fileID: 3250838699092099444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &878778478 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3250838698347682074, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
@@ -503,6 +513,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2093186032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8057569254720125028, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+  m_PrefabInstance: {fileID: 3250838699092099444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3250838699092099444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -510,6 +525,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 329311309435521399, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+      propertyPath: lasers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 329311309435521399, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 744055028}
+    - target: {fileID: 329311309435521399, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 34238845}
+    - target: {fileID: 329311309435521399, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+      propertyPath: lasers.Array.data[2]
+      value: 
+      objectReference: {fileID: 2093186032}
+    - target: {fileID: 934419214132480185, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3250838698347682073, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
       propertyPath: m_Name
       value: Player Rig
