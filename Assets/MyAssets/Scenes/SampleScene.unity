@@ -622,7 +622,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5363163884090038249, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+      propertyPath: ShapeModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363163884090038249, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
       propertyPath: TrailModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363163884090038249, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
+      propertyPath: EmissionModule.enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5363163884090038249, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
