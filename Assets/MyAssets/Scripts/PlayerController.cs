@@ -7,21 +7,20 @@ using UnityEngine.ParticleSystemJobs;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("General Setup Tools")]
     //[SerializeField] InputAction movement;
     // Start is called before the first frame update
-    [SerializeField] float moveSpeed = 1f;
-    [SerializeField] float xRange = 5f;
-    [SerializeField] float yRange = 5f;
-    [SerializeField] GameObject[] lasers;
-    
+    [Tooltip("How fast ship moves up and down")][SerializeField] float moveSpeed = 1f;
+    [Tooltip("Horizontal move limits")][SerializeField] float xRange = 5f;
+    [Tooltip("Vertical move limits")][SerializeField] float yRange = 5f;
+    [Tooltip("Select the lasers you want to control")][SerializeField] GameObject[] lasers;
 
-
-
-
+    [Header("Screen position flying tuning")]
     [SerializeField] float positionPitchFactor = 2f;
-    [SerializeField] float controlPitchFactor = -10f;
-
     [SerializeField] float positionYawFactor = 2f;
+
+    [Header("Input position flying tuning")]
+    [SerializeField] float controlPitchFactor = -10f;    
     [SerializeField] float controlRollFactor = -10f;
 
     float xThrow, yThrow;
