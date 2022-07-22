@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class CollaiderHandler : MonoBehaviour
 {
+    [SerializeField] ParticleSystem crashParticles;
+    [SerializeField] GameObject shipCollider;
+    [SerializeField] float reloadTime = 1f;
+
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("We colided with " + collision.gameObject.name);
@@ -18,8 +22,11 @@ public class CollaiderHandler : MonoBehaviour
 
     void StartCrashSecuence()
     {
+        GetComponent<MeshRenderer>().enabled = false;
+        shipCollider.SetActive(false);
         DisableMovement();
-        Invoke("ReloadLevel", 1f);
+        Invoke("ReloadLevel", reloadTime);
+        crashParticles.Play();
     }
 
     void DisableMovement()
