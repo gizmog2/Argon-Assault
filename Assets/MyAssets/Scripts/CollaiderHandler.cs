@@ -11,13 +11,13 @@ public class CollaiderHandler : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("We colided with " + collision.gameObject.name);
+        //Debug.Log("We colided with " + collision.gameObject.name);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         StartCrashSecuence();
-        Debug.Log("We triggered with " + other.gameObject.name);
+        //Debug.Log("We triggered with " + other.gameObject.name);
     }
 
     void StartCrashSecuence()

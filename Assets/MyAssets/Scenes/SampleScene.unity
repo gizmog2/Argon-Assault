@@ -295,8 +295,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 8383348955405586644, guid: 06d66e73ade74e744b539892f4fd9be1, type: 3}
+  hitVFX: {fileID: 8383348955405586644, guid: 67e04071025f4a949ba1748152d77421, type: 3}
   parrent: {fileID: 1738585220}
   points: 100
+  numberOfHits: 1
 --- !u!136 &358375436
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -818,8 +820,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 8383348955405586644, guid: 06d66e73ade74e744b539892f4fd9be1, type: 3}
+  hitVFX: {fileID: 8383348955405586644, guid: 67e04071025f4a949ba1748152d77421, type: 3}
   parrent: {fileID: 1738585220}
   points: 100
+  numberOfHits: 1
 --- !u!1 &1464638598
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,8 +954,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 8383348955405586644, guid: 06d66e73ade74e744b539892f4fd9be1, type: 3}
+  hitVFX: {fileID: 8383348955405586644, guid: 67e04071025f4a949ba1748152d77421, type: 3}
   parrent: {fileID: 1738585220}
   points: 100
+  numberOfHits: 1
 --- !u!136 &1899317681
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1064,8 +1070,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 8383348955405586644, guid: 06d66e73ade74e744b539892f4fd9be1, type: 3}
+  hitVFX: {fileID: 8383348955405586644, guid: 67e04071025f4a949ba1748152d77421, type: 3}
   parrent: {fileID: 1738585220}
   points: 100
+  numberOfHits: 1
 --- !u!136 &2000340676
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1295,8 +1303,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 8383348955405586644, guid: 06d66e73ade74e744b539892f4fd9be1, type: 3}
+  hitVFX: {fileID: 8383348955405586644, guid: 67e04071025f4a949ba1748152d77421, type: 3}
   parrent: {fileID: 1738585220}
   points: 100
+  numberOfHits: 3
 --- !u!1 &2093186032 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8057569254720125028, guid: 428a8dd8aeea4a74a9ce38dddc4059ce, type: 3}
