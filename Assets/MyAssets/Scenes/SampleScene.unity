@@ -727,7 +727,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 8383348955405586644, guid: 06d66e73ade74e744b539892f4fd9be1, type: 3}
   hitVFX: {fileID: 8383348955405586644, guid: 67e04071025f4a949ba1748152d77421, type: 3}
-  parrent: {fileID: 1738585220}
   points: 100
   numberOfHits: 1
 --- !u!1 &1464638598
@@ -1614,7 +1613,7 @@ PrefabInstance:
       objectReference: {fileID: 3250838699092099445}
     - target: {fileID: 5136626480720029691, guid: a41ae7fc5261cca4f8bcc1e188acc8e7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -30
+      value: -30.000122
       objectReference: {fileID: 0}
     - target: {fileID: 6610063951612447287, guid: a41ae7fc5261cca4f8bcc1e188acc8e7, type: 3}
       propertyPath: m_Pivot.x

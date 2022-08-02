@@ -7,15 +7,19 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject explosionVFX;
     [SerializeField] GameObject hitVFX;
-    [SerializeField] Transform parrent;
+    //[SerializeField] Transform parrent;
     [SerializeField] int points = 100;
     [SerializeField] int numberOfHits = 1;
 
     ScoreBoard scoreBoard;
+    GameObject parrentGameObject;
+
+
 
     private void Start()
     {
         scoreBoard = FindObjectOfType<ScoreBoard>();
+        parrentGameObject = GameObject.FindWithTag("SpavnAtRuntime");
         AddRigidbody();
     }
 
@@ -40,14 +44,14 @@ public class Enemy : MonoBehaviour
     private void KillEnemy()
     {
         GameObject vfx = Instantiate(explosionVFX, transform.position, Quaternion.identity);
-        vfx.transform.parent = parrent;
+        vfx.transform.parent = parrentGameObject.transform;
         Destroy(gameObject);
     }
 
     private void ProcessHit()
     {
         GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
-        vfx.transform.parent = parrent;
+        vfx.transform.parent = parrentGameObject.transform;
         numberOfHits--;
         scoreBoard.IncreaceScore(points);
         Debug.Log(numberOfHits);
