@@ -16,6 +16,13 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         scoreBoard = FindObjectOfType<ScoreBoard>();
+        AddRigidbody();
+    }
+
+     void AddRigidbody()
+    {
+        Rigidbody rb = gameObject.AddComponent<Rigidbody>();
+        rb.useGravity = false;
     }
 
     private void OnParticleCollision(GameObject other)
