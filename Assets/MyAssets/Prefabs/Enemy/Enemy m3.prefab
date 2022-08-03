@@ -414,8 +414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionVFX: {fileID: 8383348955405586644, guid: 06d66e73ade74e744b539892f4fd9be1, type: 3}
   hitVFX: {fileID: 8383348955405586644, guid: 67e04071025f4a949ba1748152d77421, type: 3}
-  parrent: {fileID: 0}
-  points: 20
+  pointsHit: 20
   numberOfHits: 2
 --- !u!1 &3394929797442139179
 GameObject:

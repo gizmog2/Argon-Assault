@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject explosionVFX;
     [SerializeField] GameObject hitVFX;
     //[SerializeField] Transform parrent;
-    [SerializeField] int points = 100;
+    [SerializeField] int pointsHit = 100;
     [SerializeField] int numberOfHits = 1;
 
     ScoreBoard scoreBoard;
@@ -45,6 +45,7 @@ public class Enemy : MonoBehaviour
     {
         GameObject vfx = Instantiate(explosionVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parrentGameObject.transform;
+        scoreBoard.IncreaceScore(pointsHit);
         Destroy(gameObject);
     }
 
@@ -53,7 +54,7 @@ public class Enemy : MonoBehaviour
         GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parrentGameObject.transform;
         numberOfHits--;
-        scoreBoard.IncreaceScore(points);
+        //scoreBoard.IncreaceScore(pointsHit);
         Debug.Log(numberOfHits);
     }
 }
