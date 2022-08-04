@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] GameObject explosionVFX;
-    [SerializeField] GameObject hitVFX;
+    [SerializeField] GameObject explosionFX;
+    [SerializeField] GameObject hitFX;
     //[SerializeField] Transform parrent;
     [SerializeField] int pointsHit = 100;
     [SerializeField] int numberOfHits = 1;
@@ -43,7 +43,7 @@ public class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
-        GameObject vfx = Instantiate(explosionVFX, transform.position, Quaternion.identity);
+        GameObject vfx = Instantiate(explosionFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parrentGameObject.transform;
         scoreBoard.IncreaceScore(pointsHit);
         Destroy(gameObject);
@@ -51,7 +51,7 @@ public class Enemy : MonoBehaviour
 
     private void ProcessHit()
     {
-        GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
+        GameObject vfx = Instantiate(hitFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parrentGameObject.transform;
         numberOfHits--;
         //scoreBoard.IncreaceScore(pointsHit);
